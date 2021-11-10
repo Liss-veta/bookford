@@ -1,0 +1,339 @@
+@font-face {
+    font-family: form-fonts;
+    src: url("../FONTS/18003.ttf");
+}
+
+@font-face {
+    font-family: submit-fonts;
+    src: url("../FONTS/18064.ttf");
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0;
+    background-image: url("../IMAGES/ce1db548c030ef1b0b9f4927bc858baa.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    background-color: rgba(35, 35, 35, 0.95);
+    width: 100%;
+    height: auto;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.button_box_header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button_header {
+    display: flex;
+}
+
+a.botr {
+    background: #fff;
+    width: 300px;
+    display: block;
+    height: 33px;
+    padding-top: 19px;
+    border: 1px solid #000;
+    margin: 20px auto;
+    font-family: 'Dosis', sans;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    /*opacity: .8;*/
+    letter-spacing: 1px;
+    -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+
+a.botr:hover {
+    width: 320px;
+    height: 33px;
+    padding-top: 19px;
+    border: 1px solid teal;
+    margin: 20px auto;
+    opacity: 1;
+    letter-spacing: 4px;
+    -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+
+.image_header {
+    width: 100%;
+}
+
+img#image_book_header {
+    margin-top: 3px;
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    background-color: rgba(215, 215, 215, 0.91);
+    margin: 30px 30px 30px 30px;
+    /*При добавлении php кода нужно поменять на 100%*/
+    height: 700px;
+    /*При добавлении php кода нужно поменять на 100%*/
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.footer {
+    background-color: rgba(35, 35, 35, 1);
+    margin-bottom: auto;
+    height: 200px;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    border-collapse: collapse;
+    color: #686461;
+    width: 100%;
+
+}
+
+caption {
+    padding: 10px;
+    color: white;
+    background: #8FD4C1;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*---------------Блок для php------------*/
+th {
+    border-bottom: 3px solid #B9B29F;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background: white;
+}
+
+tr:nth-child(even) {
+    background: #E8E6D1;
+}
+
+/*---------------Блок для php------------*/
+.form {
+    width: 300px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.main_add {
+    background-color: rgba(215, 215, 215, 0.91);
+    margin: 30px 30px 30px 30px;
+    /*При добавлении php кода нужно поменять на 100%*/
+    height: 100%;
+    /*При добавлении php кода нужно поменять на 100%*/
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+/*-------------------Форма добавления--*/
+.form_add {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.form_del {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.form_add p {
+    font-family: 'form-fonts', sans-serif;
+    font-size: 18pt;
+}
+
+.form_del p {
+    font-family: 'form-fonts', sans-serif;
+    font-size: 18pt;
+}
+
+.oglav_form {
+    text-align: center;
+    font-family: 'form-fonts', sans-serif;
+}
+
+.text_input {
+
+}
+
+.add_input {
+
+}
+
+.button_submit {
+    float: right;
+
+}
+
+/*-------------------Форма добавления--*/
+/*-------------------Форма удаления----*/
+.text_delete {
+
+}
+
+.delete_input {
+
+}
+
+.submit_delete {
+float: right;
+}
+
+
+input[type=text] {
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: solid;
+
+
+}
+
+input[type=text]:focus {
+    background-color: white;
+    border: 2px solid #555;
+    transition: 1s;
+}
+
+/*-------------------Форма удаления----*/
+/*-------------------Форма редактирования----*/
+.form_edit {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+
+.form_edit p {
+    font-family: 'form-fonts', sans-serif;
+    font-size: 18pt;
+}
+/*-------------------Форма редактирования----*/
+.submit{
+    background-color: #4CAF50;
+    font-family: 'submit-fonts', sans-serif;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: flex-end;
+
+}
+.more_input{
+    display: none;
+}
+td{
+    width: auto;
+}
+a.back {
+    background: #fff;
+    width: 300px;
+    display: block;
+    height: 33px;
+    padding-top: 19px;
+    border: 1px solid #000;
+    margin: 20px auto;
+    font-family: 'Dosis', sans;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    /*opacity: .8;*/
+    letter-spacing: 1px;
+    -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+
+a.back:hover {
+    width: 320px;
+    height: 33px;
+    padding-top: 19px;
+    border: 1px solid teal;
+    margin: 20px auto;
+    opacity: 1;
+    letter-spacing: 4px;
+    -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+.more_submit {
+    background: #fff;
+    width: auto;
+    display: block;
+    height: auto;
+    border: 1px solid #000;
+    font-family: 'Dosis', sans;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    /*opacity: .8;*/
+    letter-spacing: 1px;
+
+}
+
+.more_submit:hover {
+    width: auto;
+    height: auto;
+    border: 1px solid teal;
+    opacity: .9;
+    transition: .5s;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
